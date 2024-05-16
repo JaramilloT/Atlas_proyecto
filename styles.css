@@ -1,9 +1,43 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+header{
+    background-image:url(images/banner-bk.jpg);
+    margin: 0rem;
+    height: 25rem;
+    opacity: 90%;
+    color: white;
+    display: flex;
+    justify-content:space-evenly;
+    
+}
 
 
 
+.texto{
+    width: 40rem;
+    margin-top: 2rem;
+}
 
+button{
+    margin-top: 2rem;
+    background-color: rgb(16, 248, 140);
+    border-radius: 50px;
+    height: 10%;
+}
+
+.logo{
+    height: 2rem;
+   
+}
 
 .primer{
     display: flex;
     justify-content:center;
+}
+
+.ear{
+    margin-top: 2rem;   
 }
