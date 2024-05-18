@@ -14,11 +14,18 @@ header{
     
 }
 
-
-
 .texto{
     width: 40rem;
     margin-top: 2rem;
+}
+
+.ear{
+    margin-top: 2rem;   
+}
+
+.logo{
+    height: 2rem;
+   
 }
 
 button{
@@ -28,9 +35,12 @@ button{
     height: 10%;
 }
 
-.logo{
-    height: 2rem;
-   
+
+
+h2{
+    display: flex;
+    justify-content: center;
+    margin-top: 4rem;
 }
 
 .primer{
@@ -38,6 +48,33 @@ button{
     justify-content:center;
 }
 
-.ear{
-    margin-top: 2rem;   
+.primeraimg{
+    margin: 4rem;
+    height: 60%;
+}
+
+.segundaimg{
+    margin: 4rem;
+    height: 60%;
+}
+
+.terceraimg{
+    margin: 4rem;
+    height: 60%;
+}
+
+p{
+    justify-content: center;
+    display: flex;
+}
+
+
+.segundo{
+   
+    margin: 6rem;
+    
+}
+
+h4{
+    margin-top: 2rem;
 }
