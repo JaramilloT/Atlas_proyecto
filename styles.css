@@ -1,3 +1,5 @@
+/*header*/
+
 *{
     padding: 0;
     margin: 0;
@@ -32,10 +34,12 @@ button{
     margin-top: 2rem;
     background-color: #10f88c;
     border-radius: 50px;
-    height: 10%;
+    height: 12%;
 }
 
 
+
+/*main*/
 
 h2{
     display: flex;
@@ -69,14 +73,58 @@ p{
     display: flex;
 }
 
-
 .segundo{
-    background:linear-gradient(346deg, #10f88c 56%, transparent 0%);
+    background:linear-gradient(346deg, #10f88c 75%, transparent 38%);
     width: 100%;
-    height: 30rem;
+    height: 52rem;
+    
 }
 
-h4{
+
+.Take{
+    width: 80%;
+    margin: 2rem;
+}
+
+h5{
     margin-top: 2rem;
 }
 
+.buton_2{
+    margin-top: 2rem;
+    background-color: #080669;
+    color: white;
+    border-radius: 50px;
+    height: 2rem;
+    width: 7rem;
+}
+
+
+
+.img_compu{
+    display: flex;
+    justify-content: end;
+    margin: -12rem;
+}
+
+
+
+
+.safe{
+    margin-top: 22rem;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+
+.img{
+    width: 350px;
+    height: 250px;
+}
+
+
+
+.text{
+    margin-right: 10px;
+}
