@@ -1,3 +1,5 @@
+/*header*/
+
 *{
     padding: 0;
     margin: 0;
@@ -29,12 +31,14 @@ header{
 
 button{
     margin-top: 2rem;
-    background-color: rgb(16, 248, 140);
+    background-color: #10f88c;
     border-radius: 50px;
-    height: 10%;
+    height: 12%;
 }
 
 
+
+/*main*/
 
 h2{
     display: flex;
@@ -43,6 +47,7 @@ h2{
 }
 
 .primer{
+    padding: 4rem;
     display: flex;
     justify-content:center;
 }
@@ -68,48 +73,11 @@ p{
 }
 
 .segundo{
-    background:linear-gradient(346deg, #10f88c 75%, transparent 38%);
-    width: 100%;
-    height: 52rem;
-    margin-top: 10rem;
-}
-
-.Take{
-    width: 80%;
-    margin: 2rem;
+   
+    margin: 6rem;
+    
 }
 
 h5{
     margin-top: 2rem;
-}
-
-.buton_2{
-    margin-top: 2rem;
-    background-color: #080669;
-    color: white;
-    border-radius: 50px;
-    height: 2rem;
-    width: 7rem;
-}
-
-.img_compu{
-    display: flex;
-    justify-content: end;
-    margin: -12rem;
-}
-
-.safe{
-    margin-top: 22rem;
-    display: flex;
-    justify-content: right;
-    align-items: center;
-}
-
-.img{
-    width: 350px;
-    height: 250px;
-}
-
-.text{
-    margin-right: 10px;
 }
