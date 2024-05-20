@@ -75,10 +75,10 @@ p{
 }
 
 .segundo{
-    background:linear-gradient(346deg, #10f88c 75%, transparent 38%);
+    background:linear-gradient(350deg, #10f88c 75%, transparent 38%);
     width: 100%;
-    height: 52rem;
-    
+    height: 40rem;
+    margin-top: 6rem;
 }
 
 
@@ -87,13 +87,14 @@ p{
     margin: 2rem;
 }
 
-h5{
+.h5text{
     margin-top: 2rem;
+    
 }
 
 .buton_2{
     margin-top: 2rem;
-    background-color: #080669;
+    background-color: #252850;
     color: white;
     border-radius: 50px;
     height: 2rem;
@@ -116,12 +117,14 @@ h5{
     display: flex;
     justify-content: right;
     align-items: center;
+    width: 90%;
+    
 }
 
 
 .img{
-    width: 350px;
-    height: 250px;
+    width: 25%;
+    height: 25%;
 }
 
 
@@ -129,3 +132,128 @@ h5{
 .text{
     margin-right: 10px;
 }
+
+.img2{
+    width: 30%;
+    height: 30%;
+    margin: 4rem;
+}
+
+
+
+.container{
+    display:flex ;
+    text-align: center;
+}
+
+.check{
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+    
+}
+
+
+
+
+
+
+
+.container1{
+    
+    width: 100%;
+    height:25rem;
+    margin: 2rem;
+    
+}
+.h3container1{
+    
+    margin-top: 1rem;
+}
+
+.h5container1{
+    margin-top: 1rem;
+}
+
+.num_grande1{
+    font-size: 6rem;
+    
+}
+
+.button_container1{
+    background-color: white;
+    color:  #252850;
+    border-radius: 50px;
+    height: 2rem;
+    width: 7rem;
+    border-color: #252850;
+    margin-top: 3rem;
+}
+
+
+
+.container2{
+    background-color:#252850;
+    width: 100%;
+    height: 25rem;
+    margin: 2rem;
+    border-radius: 10px;
+}
+
+.h3container2{
+    color: white;
+    margin-top: 1rem;
+}
+
+.h5container2{
+    color: white;
+    margin-top: 1rem;
+}
+
+.num_grande2{
+    font-size: 6rem;
+    color: white;
+}
+
+.button_container2{
+    background-color: #10f88c;
+    color:  #252850;
+    border-radius: 50px;
+    height: 2rem;
+    width: 7rem;
+    margin-top: 3rem;
+}
+
+
+
+.container3{
+    
+    width: 100%;
+    height:25rem;
+    margin: 2rem;
+    
+}
+.h3container3{
+    
+    margin-top: 1rem;
+}
+
+.h5container3{
+    margin-top: 1rem;
+}
+
+.num_grande3{
+    font-size: 6rem;
+    
+}
+
+.button_container3{
+    background-color: white;
+    color:  #252850;
+    border-radius: 50px;
+    height: 2rem;
+    width: 7rem;
+    border-color: #252850;
+    margin-top: 3rem;
+}
+
