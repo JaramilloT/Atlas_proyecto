@@ -15,18 +15,18 @@ header{
     justify-content:space-evenly;
 }
 
-.texto{
+.text_header{
     width: 40rem;
     margin-top: 2rem;
 }
 
-.ear{
-    margin-top: 2rem;   
-}
-
-.logo{
+.logo_web{
     height: 2rem;
    
+}
+
+.text_Ear{
+    margin-top: 2rem;   
 }
 
 button{
@@ -40,59 +40,57 @@ button{
 
 /*main*/
 
-h2{
+.h1_Smartest{
     display: flex;
     justify-content: center;
     margin-top: 4rem;
 }
 
-.primer{
+.Container_protect{
     padding: 4rem;
     display: flex;
     justify-content:center;
 }
 
-.primeraimg{
+.img_protect1{
     margin: 4rem;
     height: 60%;
 }
 
-.segundaimg{
+.img_protect2{
     margin: 4rem;
     height: 60%;
 }
 
-.terceraimg{
+.img_protect3{
     margin: 4rem;
     height: 60%;
 }
-
-
 
 p{
     justify-content: center;
     display: flex;
 }
 
-.segundo{
-    background:linear-gradient(350deg, #10f88c 75%, transparent 38%);
+/*contenedor imagenes computador*/
+
+.Container_img_computer{
+    background: linear-gradient(353deg, #10f88c 78%, transparent 38%);
     width: 100%;
-    height: 40rem;
+    height: 54rem;
     margin-top: 6rem;
 }
 
-
-.Take{
-    width: 80%;
-    margin: 2rem;
+.text_Take{
+    width: 70%;
+    margin: 8rem;
 }
 
-.h5text{
-    margin-top: 2rem;
-    
+.text_h5{
+    margin-top: 2rem;  
 }
 
-.buton_2{
+.button_2{
     margin-top: 2rem;
     background-color: #252850;
     color: white;
@@ -101,77 +99,62 @@ p{
     width: 7rem;
 }
 
-
-
-.img_compu{
+.img_computer{
     display: flex;
     justify-content: end;
     margin: -12rem;
 }
 
+/*segunda parte de la imagen del computador*/
 
-
-
-.safe{
+.text_Safe{
     margin-top: 22rem;
     display: flex;
     justify-content: right;
     align-items: center;
-    width: 90%;
-    
+    width: 80%;
 }
-
 
 .img{
     width: 25%;
     height: 25%;
 }
 
-
-
 .text{
     margin-right: 10px;
 }
 
 .img2{
-    width: 30%;
+    width: 35%;
     height: 30%;
     margin: 4rem;
 }
 
+/*Contenedores*/
 
+.text_check{
+    display: flex;
+    justify-content: center;
+    margin-top: 6rem;
+}
 
-.container{
+.container_offer{
     display:flex ;
     text-align: center;
 }
 
-.check{
-    display: flex;
-    justify-content: center;
-    margin-top: 6rem;
-    
-}
-
-
-
-
-
-
-
 .container1{
-    
-    width: 100%;
+    width: 40%;
     height:25rem;
     margin: 2rem;
-    
 }
-.h3container1{
+
+.container1_h3{
     
     margin-top: 1rem;
 }
 
-.h5container1{
+.container1_h5{
     margin-top: 1rem;
 }
 
@@ -190,22 +173,22 @@ p{
     margin-top: 3rem;
 }
 
-
+/*contenedor 2*/
 
 .container2{
     background-color:#252850;
-    width: 100%;
+    width: 20%;
     height: 25rem;
     margin: 2rem;
     border-radius: 10px;
 }
 
-.h3container2{
+.container2_h3{
     color: white;
     margin-top: 1rem;
 }
 
-.h5container2{
+.container2_h5{
     color: white;
     margin-top: 1rem;
 }
@@ -224,21 +207,20 @@ p{
     margin-top: 3rem;
 }
 
-
+/*contenedor 3*/
 
 .container3{
-    
-    width: 100%;
+    width: 40%;
     height:25rem;
     margin: 2rem;
-    
 }
-.h3container3{
+
+.container3_h3{
     
     margin-top: 1rem;
 }
 
-.h5container3{
+.container3_h5{
     margin-top: 1rem;
 }
 
@@ -257,3 +239,28 @@ p{
     margin-top: 3rem;
 }
 
+/*contenedor Client*/
+
+.container_client{
+    background-color: #eeebeb;
+    width: 100%;
+    height: 8rem;
+    display: flex;
+    justify-content: space-around ;
+    margin-top: 4rem;
+}
+
+.client_img{
+    height: 60%;
+    margin-top: 2rem;
+}
+
+.container_contact{
+    background-image: url(images/contact-bk.jpg);
+    height: 40rem;
+    color: white;
+}
+
+.h1_contac{
+    width: 40rem;
+}
