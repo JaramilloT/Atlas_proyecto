@@ -264,7 +264,7 @@ button{
 }
 
 .container_text_contact{
-    margin: 6%;
+    margin: 8%;
     height: 50%;
 }
 
@@ -279,10 +279,46 @@ button{
     margin-top: 1rem;
 }
 
-.Form{
-    margin: 6%;
+/*Formulario*/
+
+.form{
+    margin-left: 24%;
+    margin-top: 7%;
 }
 
-.furmulario{
-    display: flex;
+input{
+    border: 2px solid  #51eca8;
+    background-color: transparent;
+    border-radius: 6px;
+    padding: 0.2rem; 
+    color: #fff;
+    margin-right: 2rem;
 }
+
+.email{
+    position: relative;
+    right: -10rem;
+}
+
+label{
+    color:  #51eca8;
+}
+
+textarea{
+    width: 25rem;
+    height: 4rem;
+    background-color: transparent;
+    border: 2px solid #51eca8;
+    border-radius: 14px;
+}
+.button_form{
+    margin-top: 1rem;
+    width: 95%;
+    background-color: #51eca8;
+    color: #252850;
+    border: none;
+    border-radius: 50px;
+    height: 2rem;
+}
+
+/*Footer*/
