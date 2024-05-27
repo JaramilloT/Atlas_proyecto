@@ -39,9 +39,11 @@ header{
 
 button{
     margin-top: 2rem;
-    background-color: #10f88c;
+    background-color: #06fcab;
     border-radius: 50px;
-    height: 12%;
+    border: none;
+    height: 3rem;
+    width: 5rem;
 }
 
 
@@ -89,7 +91,7 @@ button{
 /*contenedor imagenes computador*/
 
 .Container_img_computer{
-    background: linear-gradient(353deg, #10f88c 78%, transparent 38%);
+    background: linear-gradient(353deg, #06fcab 78%, transparent 38%);
     width: 100%;
     height: 54rem;
     margin-top: 6rem;
@@ -176,16 +178,6 @@ button{
     
 }
 
-.button_container1{
-    background-color: white;
-    color:  #252850;
-    border-radius: 50px;
-    height: 2rem;
-    width: 7rem;
-    border-color: #252850;
-    margin-top: 3rem;
-}
-
 /*contenedor 2*/
 
 .container2{
@@ -212,7 +204,7 @@ button{
 }
 
 .button_container2{
-    background-color: #10f88c;
+    background-color: #06fcab;
     color:  #252850;
     border-radius: 50px;
     height: 2rem;
@@ -246,6 +238,7 @@ button{
     background-color: white;
     color:  #252850;
     border-radius: 50px;
+    border: 2px solid #252850;
     height: 2rem;
     width: 7rem;
     border-color: #252850;
@@ -301,7 +294,7 @@ button{
 }
 
 input{
-    border: 2px solid  #51eca8;
+    border: 2px solid  #06fcab;
     background-color: transparent;
     border-radius: 6px;
     padding: 0.2rem; 
@@ -315,20 +308,20 @@ input{
 }
 
 label{
-    color:  #51eca8;
+    color:  #06fcab;
 }
 
 textarea{
     width: 25rem;
     height: 4rem;
     background-color: transparent;
-    border: 2px solid #51eca8;
+    border: 2px solid #06fcab;
     border-radius: 14px;
 }
 .button_form{
     margin-top: 1rem;
     width: 95%;
-    background-color: #51eca8;
+    background-color: #06fcab;
     color: #252850;
     border: none;
     border-radius: 50px;
